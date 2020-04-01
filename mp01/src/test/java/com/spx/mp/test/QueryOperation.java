@@ -32,6 +32,7 @@ public class QueryOperation {
     @Test
     public void test1(){
         Employee employee = employeeMapper.selectById(6);
+
         System.out.println(employee);
     }
     
